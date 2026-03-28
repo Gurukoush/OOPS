@@ -1,0 +1,33 @@
+2. Object
+
+Definition:
+An object is an instance of a class. It represents a real-world entity and contains actual data.
+
+Example:
+
+s1 = Student("Guru", 21)
+
+3. Reference Variable
+
+Definition:
+A reference variable stores the address (reference) of an object in memory and is used to access that object.
+
+Example:
+
+s1 = Student("Guru", 21)
+
+Here, s1 is a reference variable that refers to the Student object.
+
+
+class student:
+    def __init__(self,name, salary, cricketer):
+        self.name = name
+        self.salary = salary
+        self.cricketer = cricketer
+        
+    def talk(self):
+        print("my name is:", self.name)
+        print("my salary is:", self.salary)
+        print("my cricketer is:", self.cricketer)
+s= student("Guru",0,"hardik")
+s.talk()
