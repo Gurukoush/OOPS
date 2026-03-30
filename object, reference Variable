@@ -31,3 +31,22 @@ class student:
         print("my cricketer is:", self.cricketer)
 s= student("Guru",0,"hardik")
 s.talk()
+
+
+
+
+
+class student:
+    def __init__(self,name,vtu,pn):
+        self.name=name
+        self.vtu=vtu
+        self.pn=pn
+    def talk(self):
+        print("name:",self.name)
+        print("vtu:",self.vtu)
+        print("pn:",self.pn)
+s=student("guru",27254,9618597220)
+s.talk()
+
+s1 = student("navy",42241,12487291)
+s1.talk()
